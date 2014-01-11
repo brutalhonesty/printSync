@@ -1,9 +1,12 @@
 {
   "name": "printsync",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "3d Printer Web App for HeatSync Labs",
   "dependencies": {
     "express": "~3.4.3",
-    "ejs": "~0.8.4"
+    "ejs": "~0.8.4",
+    "querystring": "*",
+    "request": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -39,6 +42,8 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "dev": "grunt serve",
+    "start": "grunt serve:dist"
   }
 }

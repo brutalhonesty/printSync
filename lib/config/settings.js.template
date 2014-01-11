@@ -1,0 +1,7 @@
+module.exports = {
+	thingiverse: {
+		clientID: '',
+		clientSecret: '',
+		accessToken: ''
+	}
+};
